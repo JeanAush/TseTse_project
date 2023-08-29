@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #8d6235; /* Brown */
+    --secondary-color: #e6c02c; /* Yellow */
+    --background-color: #f6f6f6b7; /* Light Gray */
+  }
+  body {
+    background-color: var(--background-color);
+  }
+  
+  h1 {
+    color: var(--primary-color);
+  }
+  
+  p {
+    color: var(--secondary-color);
+    text-align: center;
+  }
+  .Navigation {
+    background-color: var(--primary-color);
+    padding: 40px 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .Nav-list {
+    list-style-type: none;
+    display: flex; /*ply flex disp Aplay */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Align the items vertically */
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+  }
+  
+  .Nav-list li {
+    margin: 0 20px;
+  }
+  
+  .Nav-list a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .Nav-list a:hover {
+    color: var(--secondary-color);
+  }
+  .Logo {
+    margin-right: 20px; /* Add spacing between logo and navigation links */
+  }
+  
+  .Logo img {
+    width: 10px; /* Adjust the logo width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .AboutP {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .AboutC {
+    flex: 1;
+    padding: 20px;
+  }
+  .tsetse-image-slider {
+    position: fixed;
+    overflow: hidden; 
+    height: 200px;
+  }
+  .slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slider-image.active {
+    opacity: 1;
+  }
+  
