@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #8d6235; /* Brown */
-    --secondary-color: #e6c02c; /* Yellow */
-    --background-color: #f6f6f6b7; /* Light Gray */
+    --primary-color: #8d6235; 
+    --secondary-color: #e6c02c; 
+    --background-color: #f6f6f6b7;
   }
   body {
     background-color: var(--background-color);
